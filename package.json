@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "SET NODE_ENV=PRODUCTION && node index.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT && nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "are-we-there-yet": "^4.0.2",
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "gauge": "^5.0.2",
+    "glob": "^11.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "multer": "^2.0.1",
+    "npmlog": "^7.0.1",
+    "rimraf": "^6.0.1",
+    "server": "file:",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "nodemon": "^3.1.10"
+  }
+}
